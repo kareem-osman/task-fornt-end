@@ -1,0 +1,534 @@
+:root{
+    --maincolor:#22db7f;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px
+}
+/*---------------- Global Styling */
+/*---------------- Global Styling */
+/*---------------- Global Styling */
+img{
+    width: 100%
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.clearfix{
+    clear: both;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.has-dropdown{
+    position: relative;
+}
+.has-dropdown .dropdown{
+
+    position:absolute;
+}
+/*---------------- /Global Styling */
+/*---------------- /Global Styling */
+/*---------------- header section--------------- */
+header{
+    background-image: url(../imges/ace_combat4_002.jpe);
+    background-size: cover
+}
+header nav{
+    background-color: azure;
+    border-top: 5px solid var(--maincolor)
+}
+
+header nav .logo{
+    float: left;
+    width: 20%;
+}
+header nav .logo a{
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 7px 0;
+    color: var(--maincolor);
+    font-weight: bold;
+}
+header nav .navigation{
+    float: left;
+    width: 60%;
+    list-style: none;
+    overflow: hidden;
+}
+header nav .navigation:hover{
+    overflow: visible
+}
+
+header nav ul.navigation li{
+    display: inline-block;
+    margin: 0 10px 
+}
+header nav ul.navigation li a{
+ padding: 15px;
+transition: .4s;
+}
+header nav ul.navigation li.active a , header nav ul.navigation li:hover a{
+    background-color: var(--maincolor);
+    color: #fff
+}
+
+header nav .contact{
+    float: left;
+    width: 20%;
+
+}
+.contact{
+    padding: 15px 0;
+    text-align: right;
+}
+header .header-content{
+    padding: 200px 0;
+}
+header .header-content h2{
+color: #fff;
+font-size: 3rem;
+margin-bottom: 20px
+}
+header .header-content p{
+    color: #eee;
+    margin-bottom: 10px;
+    width: 40%;
+    line-height:20px
+}
+header .header-content a{
+
+    padding: 10px 25px;
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: center;
+    border-radius: 20px
+}
+/*---------------- //header section--------------- */
+/*---------------- //header section--------------- */
+
+/* ..........main body ....**************...... */
+.main-body .container .section-b1 .row .row-item{
+    float: left;
+    width: 31%;
+    margin: 40px 1%;
+    border: 1px solid gray;
+    padding: 50px 5px;
+
+}
+.main-body .container .section-b1 .row{
+    margin-top: 50px
+}
+.main-body .container .section-b1 .row .row-item h2{
+    padding: 10px 0;
+}
+.main-body .container .section-b1 .row .row-item h1{
+    border: 1px solid rgb(130, 130, 131);
+    background-color: rgb(81, 81, 206);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-left: 10px;
+    line-height: 60px
+}
+.main-body .container .section-b1 .row .row-item p{
+    text-align: justify;
+    
+}
+/* 000000000000000000000 section-b2 000000 */
+.section-b2 .row{
+    margin-top: 30px
+}
+.section-b2 .row .row-info{
+    width: 45%;
+    float: left;
+    padding: 20px 10px;
+    border: 1px solid gainsboro;
+    margin: 10px 3%;
+}
+.section-b2 .row .row-info .info-title{
+    padding: 10px 20px;
+    font-size: 1.2rem
+}
+
+.section-b2 .row .row-info .info-body{
+    padding: 10px 0;
+}
+.section-b2 .row .row-info .info-body i{
+    float: left;
+    color: #27cf92;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+.section-b2 .row .row-info .info-body .info-body-dit{
+    float: left;
+    width: 70%
+}
+/* 5555555555555555555555555---sign ------------555555555555555555555555555555555555 */
+.section-b2 .row .row-sign{
+    float: left;
+    width: 35%;
+    /* padding: 20px 5px;
+    margin: 10px 30px; */
+    /* background-color: #24201f;
+    border: 1px solid gainsboro;
+    border-radius: 50%; */
+}
+
+.section-b2 .row .row-sign .sign-title{
+    text-align: center;
+    color: #fff;
+    padding: 20px ;
+
+}
+/* .section-b2 .row .row-sign .sign-body{
+    color: #fff;
+    width: 70%;
+    margin: 20px auto;
+}
+.section-b2 .row .row-sign .sign-body h3{
+    padding: 12px 0;
+} */
+/* .section-b2 .row .row-sign .sign-buttom{
+    text-align: center;
+    background-color: #fff;
+    color: #24201f;
+    border: 1px solid #fff;
+    width: 30%;
+    margin: 20px auto;
+    padding: 5px 0;
+    border-radius: 20px;
+} */
+.section-b2 .row .row-sign .sign-body{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #24201f;
+    border: 1px solid gainsboro;
+    margin: 10px auto;
+    padding: 10px
+}
+.section-b2 .row .row-sign .sign-body input:not([type="submit"]){
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px white solid;
+    display: block;
+    padding: 15px;
+    margin: 0 auto;
+    width: 80%;
+
+}
+.section-b2 .row .row-sign .sign-body input:not([type="submit"]):focus{
+    outline: none
+}
+.section-b2 .row .row-sign .sign-body #started-bottum{
+display: block;
+padding: 15px;
+text-align: center;
+border: #0a0c0b solid 1px;
+border-radius: 12px;
+margin: 20px auto;
+
+
+
+}
+/* .section-b2 .row .row-sign .sign-body hr{
+    background-color: gray;
+} */
+
+/* ---------------section Teachers****---- */
+/* ---------------section Teachers****---- */
+/* ---------------section Teachers****---- */
+.section-b3{
+    background-color: rgb(241, 238, 234)
+}
+.section-b3 .teacher-details .teacher-item{
+    width: 21%;
+    float: left;
+    padding: 10px 5px;
+    margin: 10px 2%;
+
+}
+.section-b3 .teacher-details .teacher-item .teacher-name{
+    padding: 10px 0;
+}
+.section-b3  .teacher-title {
+    text-align: center;
+    margin-top: 50px
+
+}
+/* ************icon ***************** */
+/* ************icon ***************** */
+/* ************icon ***************** */
+.section-b3 .teacher-details .teacher-item i{
+    font-size: 20px;
+    padding: 2px 5px;
+}
+
+.section-b3 .teacher-details .teacher-item i:first-child {
+    color: #3d61b0
+    
+}
+.section-b3 .teacher-details .teacher-item i:nth-child(2) {
+    color: #64c8e8
+    
+}
+/* ************icon ***************** */
+/* ************icon ***************** */
+/* ************icon ***************** */
+li.has-dropdown{
+    position: relative;
+}
+li.has-dropdown ul.dropdown{
+ /* border: 2px solid green; */
+ position: absolute;
+ background-color: #fff;
+ width: 180px;
+ top: 200%;
+ transition: .5s;
+ opacity: 0;
+
+}
+li.has-dropdown:hover ul.dropdown{
+    opacity: 0.8;
+    top: 100%
+}
+li.has-dropdown ul.dropdown li{
+    display: block !important;
+    padding: 10px;
+}
+
+/* -----------------poplular-courses ------- */
+/* -----------------poplular-courses ------- */
+.poplular-courses .container .title-courses ,.student-rev .student-title {
+    text-align: center;
+    margin: 0 auto;
+    padding: 70px 0;
+
+}
+.poplular-courses .row-courses .courses{
+    float: left;
+    width: 31%;
+    margin: 20px 1%;
+
+
+}
+.poplular-courses .row-courses .courses .details-courses{
+    padding: 10px 5px;
+    line-height: 30px
+}
+
+.poplular-courses .row-courses .courses .img-courses {
+    position: relative;
+    
+}
+.poplular-courses .row-courses .courses .img-courses p{
+    color: #fff;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    
+}
+.poplular-courses .row-courses .courses:first-child .img-courses{
+    background-image: url("../imges/old\(01\).jpg");
+    width: 100%;
+    height: 200px;
+    margin: 10px auto
+
+    
+}
+.poplular-courses .row-courses .courses:nth-child(2) .img-courses{
+    background-image: url("../imges/old\(02\).jpg");
+    width: 100%;
+    height: 200px;
+    margin: 10px auto
+    
+}
+.poplular-courses .row-courses .courses:nth-child(3) .img-courses{
+    background-image: url("../imges/old\(03\).jpg");
+    width: 100%;
+    height: 200px;
+    margin: 10px auto
+
+}
+
+.poplular-courses .row-courses .courses .teacher-courses .item1{float: left;; width: 15%;}
+.poplular-courses .row-courses .courses .teacher-courses .item2{float: left;; width: 50%;padding-left: 5px;padding-top: 20px;}
+.poplular-courses .row-courses .courses .teacher-courses .item3{float: left;; widows: 25%;padding-top: 20px}
+.poplular-courses .row-courses .courses .teacher-courses .item1 img{
+    /* display: inline; */
+    width: 80%;
+    height: 60%;
+    text-align: center;
+  
+}
+.poplular-courses .row-courses .courses .teacher-courses h2{
+    /* display: inline; */
+    
+}
+.poplular-courses .row-courses .courses .teacher-courses input{
+    background-color: #22db7f;
+    padding: 5px;
+    border: #f2f5f3 1px solid;
+    margin: 0 5px;
+}
+/* ---------------------student-rev--- */
+/* ---------------------student-rev--- */
+.student-rev .student-row .data .stud-name{
+    padding: 20px 5px;
+float: left;
+width: 70%
+}
+.student-rev .student-row .data .stud-img img{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: #22db7f solid 1px;
+    border-radius: 50%
+}
+
+
+.student-rev .student-row .data .stud-img{
+    padding: 10px;
+    float: left;
+    width: 30%;
+
+}
+.student-rev .student-row .student .rev p{
+    width: 90%;
+}
+
+.student-rev .student-row .student .rev{
+    line-height: 20px;
+    padding: 20px 5px;
+
+}
+.student-rev .student-row .student{
+    float: left;
+    width: 31%;
+    
+}
+.student-rev .student-row {
+    padding-bottom: 70px ;
+}
+/* -----------------//////////////////////----student-rev--- */
+/* -----------------//////////////////////----student-rev--- */
+/* ------------------contact us ............... */
+/* ------------------contact us ............... */
+section.sec-contact{
+    background-color: #4150b5
+}
+.row-contact{
+    margin: 0 auto
+}
+.row-contact .contact-form {
+    width: 48%;
+    float: left;
+    padding: 10px;
+    
+}
+.row-contact .contact-form .title-form{
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 80%;
+
+}
+.row-contact .contact-form .email-form .form-item {
+    padding: 10px;
+
+}
+.row-contact .contact-form .email-form .form-item input:not([type="submit"]){
+    display: block;
+    width: 80%;
+    height: 30px;
+
+}
+.row-contact .contact-form .email-form .form-item input:focus{
+    outline: none
+}
+.row-contact .contact-form .email-form .form-item input[type="submit"]{
+padding: 7px 10px;
+margin-left: 10px;
+/* font-size: 1.2rem; */
+border: 1px solid black;
+border-radius: 12px
+}
+.row-contact .contact-form .email-form .form-item textarea{
+    width: 80%
+}
+.row-contact .contact-img {
+    margin-top: 40px;
+    width: 48%;
+    float: left;
+    padding: 10px;
+    text-align: left
+
+}
+.row-contact .contact-img img{
+    width: 70%;
+    border: #24201f solid 1px;
+}
+/* -----------------///-contact us ............... */
+/* -----------------///-contact us ............... */
+
+
+
+
+
+/* ------------------footer ............... */
+/* ------------------footer ............... */
+.sec-footer{
+    background-color: #24201f
+}
+.sec-footer .row-footer .col-footer{
+    color: #fff;
+    width: 31%;
+    margin:  50px 1%;
+    float: left;    
+}
+.sec-footer .row-footer .col-footer .top,.sec-footer .row-footer .col-footer .bottom{
+    line-height: 20px;
+
+}
+.sec-footer .row-footer .col-footer  h2{
+    padding: 20px 0;
+}
+.sec-footer .row-footer .col-footer .icon-footer{
+    padding: 15px 0;
+}
+.sec-footer .row-footer .col-footer .icon-footer i{
+    margin: 0 10px;
+}
+
+.sec-footer .row-footer .col-footer .news-form input[type="text"]{
+    display: block;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    margin: 10px 0;
+    padding: 5px 0;
+}
+.sec-footer .row-footer .col-footer .news-form input[type="submit"]{
+    display: block;
+    padding: 15px 0;
+    border: 1px solid #fff;
+    width: 30%;
+    margin: 15px 0;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 18px
+
+}
+
+/* ----------------///////////--footer ............... */
+/* ----------------///////////--footer ............... */
